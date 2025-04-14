@@ -1,20 +1,41 @@
-
-# Compiled files
-*.exe
-*.o
-*.obj
-
-# VS Code and Visual Studio files
+# 🧠 VS Code and Visual Studio settings
 .vscode/
 .vs/
+*.suo
+*.user
+*.vcxproj.*
+*.ncb
 
-# Build directories
-data/
-include/
-lib/
-src/
-# Data files that may contain sensitive information
+# ⚙️ Build artifacts
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.lib
+*.so
+*.a
+*.pch
+*.pdb
+
+# 📁 Build and temp folders (NOT src/include!)
+build/
+bin/
+
+# 🔒 Sensitive or runtime data
+data/master_password.dat
 data/vault.json
+data/*.bak
 
-# Other
+# 📝 Logs
 *.log
+
+# 🧹 System files
+.DS_Store
+Thumbs.db
+
+# ⚙️ CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile

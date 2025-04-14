@@ -1,0 +1,19 @@
+
+# Compiled files
+*.exe
+*.o
+*.obj
+
+# VS Code and Visual Studio files
+.vscode/
+.vs/
+
+# Build directories
+data/
+include/
+lib/
+# Data files that may contain sensitive information
+data/vault.json
+
+# Other
+*.log

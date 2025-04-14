@@ -1,0 +1,1 @@
+g++ src\main.cpp src\encryption.cpp src\utils.cpp src\password_manager.cpp -std=c++17 -lstdc++fs -Iinclude -I"C:\Program Files\OpenSSL-Win64\include" -L"C:\Program Files\OpenSSL-Win64\lib\VC\x64\MT" -lssl -lcrypto -o vault.exe

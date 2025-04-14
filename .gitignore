@@ -12,6 +12,7 @@
 data/
 include/
 lib/
+src/
 # Data files that may contain sensitive information
 data/vault.json
 

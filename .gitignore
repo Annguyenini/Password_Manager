@@ -19,8 +19,7 @@
 *.pdb
 
 # 📁 Build and temp folders (NOT src/include!)
-build/
-bin/
+tempvault/
 
 # 🔒 Sensitive or runtime data
 data/master_password.dat

@@ -18,8 +18,7 @@
 *.pch
 *.pdb
 
-# 📁 Build and temp folders (NOT src/include!)
-tempvault/
+# 📁 Build and temp folders 
 
 # 🔒 Sensitive or runtime data
 data/master_password.dat

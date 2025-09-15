@@ -1,0 +1,1 @@
+A simple command line interface password managers, provide feature like storage, change passwords, update passwords, using C++ and nlohman json libary. Using ASE, SHA256 and salts for better encryption.
